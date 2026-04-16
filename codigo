@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>site xucucu</title>
+</head>
+<body>
+ <h1 style="color: aqua;"> <div class="titulo"></div>
+        Seja bem vindo
+    </h1>
+    <h2 style="color: rgb(255, 31, 206);"> <div class="sub preto"></div>
+        isso é so pra ganhar ponto :3
+    </h2>
+    <h1 style="color: brown;">
+    o lucas é muuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuito gordo
+    </h1>
+    <h3>
+      e tambem paia
+    </h3>
+
+    <script>
+        let nome = prompt("insira seu nome");
+        console.log ("nome" + nome);
+        document.write("Seu nome é: " + nome + "<br>");
+
+        let resposta = confirm ("Cadastro feito: " + nome);
+        if(resposta == true){
+     document.write("Cadastro Feito: " + nome);
+    }
+    else{
+          document.write("Cadastro não realizado");
+    }
+    </script>
+</body>
+</html>
